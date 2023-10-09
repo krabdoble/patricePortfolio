@@ -1,0 +1,39 @@
+header{
+    position: fixed;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    background-color: #1b1b32;
+    width: 100%;
+    z-index: 3;
+   
+}
+
+.desor{
+    display: flex;
+    padding: 14px 16px; 
+    
+}
+li{
+    list-style: none;
+    margin: 10px;
+}
+a{
+    text-decoration: none;
+    color:white;
+    font-size: 20px;
+    font-weight: bold;
+}
+a:hover{
+    background-color: white;
+    color: #1b1b32;
+}
+
+@media  (max-width: 768px){
+    header{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,50 @@
+.experience{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 10px;
+}
+.section-title{
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+}
+/*.col1{
+    margin-top: 15px;
+}*/
+.section-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;  
+}
+p{
+    font-size: 1.5rem;
+    display: flex;
+}
+
+
+.col1,.col3{
+    margin-top: 22px;
+}
+
+.column, i{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+span{
+    margin: 5px;
+}
+ @media(min-width:768px) {
+    .badges2-container{
+        position: absolute;
+        bottom: 0;
+        z-index: -2;
+    }
+   .text{
+        margin-top: -102px;
+    }
+ }
